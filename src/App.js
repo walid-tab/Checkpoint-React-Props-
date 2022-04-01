@@ -1,9 +1,12 @@
-import GetsData from './profile.js'
+import {Data} from './Data'
+import Info from './info.js';
+
 
 function App() {
+  
   return (
     <div className="App">
-      <GetsData/>
+      <Info Data={Data}/>
     </div>
   );
 }
